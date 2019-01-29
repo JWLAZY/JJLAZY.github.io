@@ -1,0 +1,2 @@
+# JJLAZY.github.io
+blog
