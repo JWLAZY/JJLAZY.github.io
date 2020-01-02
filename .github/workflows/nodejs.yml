@@ -31,3 +31,5 @@ jobs:
           pwd
           cd ~/home
           ls
+          cd app
+          ls
