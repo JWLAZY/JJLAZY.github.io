@@ -5,7 +5,7 @@ favicon: /images/favicon.svg
 # Additional HTML meta tags in an array.
 meta: 
 # canonical_url of your site
-canonical_url: 
+canonical_url: me.lizhitech.com
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
@@ -27,11 +27,11 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        列表: /archives
+        分类: /categories
+        标签: /tags
+        我: /about
     # Navigation bar links to be shown on the right
     links:
         Download on GitHub:
@@ -41,12 +41,6 @@ navbar:
 footer:
     # Links to be shown on the right of the footer section
     links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/ppoffice/hexo-theme-icarus'
@@ -135,7 +129,7 @@ widgets:
         # Path or URL to the avatar to be shown in the profile widget
         avatar: 
         # Email address for the Gravatar to be shown in the profile widget
-        gravatar: 
+        gravatar: zhengjianwen@outlook.com
         # Whether to show avatar image rounded or square
         avatar_rounded: false
         # Path or URL for the follow button
@@ -144,16 +138,13 @@ widgets:
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://github.com/jjlazy'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com'
             Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
+                icon: fab fa-weibo
+                url: 'https://weibo.com/u/1907773525'
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -170,7 +161,7 @@ widgets:
         # Links to be shown in the links widget
         links:
             Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+            PPOffice: 'https://github.com/jjlazy'
     -
         # Widget name
         type: category
