@@ -9,16 +9,6 @@ jobs:
       matrix:
         node-version: [10.10.0]
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install
-      run: |
-        npm install
-      env:
-        CI: true
     - name: 远程
       uses: appleboy/ssh-action@master
       with:
@@ -31,3 +21,5 @@ jobs:
           git reset --hard
           git pull
           hexo g
+          unalias cp
+          cp -rf public/* ../blog/
