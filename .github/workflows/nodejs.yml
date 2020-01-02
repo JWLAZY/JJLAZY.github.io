@@ -28,4 +28,6 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd app/JJLAZY.github.io
+          git reset --hard
+          git pull
           hexo g
