@@ -14,10 +14,21 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and test
+    - name: npm install
       run: |
-        npm install
-        npm run build
-        npm test
+        npm run install
       env:
         CI: true
+    - name: ssh deploy
+      uses: easingthemes/ssh-deploy@v2.0.7
+      with:
+          # Private Key
+        SSH_PRIVATE_KEY: q
+    # Remote host
+        REMOTE_HOST: q
+    # Remote user
+        REMOTE_USER: root
+    # Source directory
+        SOURCE: 2
+    # Target directory
+        TARGET: 2
