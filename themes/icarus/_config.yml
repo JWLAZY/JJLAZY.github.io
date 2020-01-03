@@ -160,7 +160,7 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo: 'https://hexo.io'
+            萌小怪: 'http://eva1963.win/myblog/'
             PPOffice: 'https://github.com/jjlazy'
     -
         # Widget name
