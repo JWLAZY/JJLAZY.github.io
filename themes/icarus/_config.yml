@@ -123,7 +123,7 @@ widgets:
         # Author name to be shown in the profile widget
         author: JW
         # Title of the author to be shown in the profile widget
-        author_title: nothing
+        author_title: programer
         # Author's current location to be shown in the profile widget
         location: beijing
         # Path or URL to the avatar to be shown in the profile widget
@@ -231,3 +231,5 @@ providers:
     fontcdn: google
     # Name or URL of the webfont Icon CDN provider
     iconcdn: fontawesome
+    
+lang: zh-CN
