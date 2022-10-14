@@ -36,6 +36,8 @@ jobs:
           # You may pin to the exact commit or the version.
           # uses: heowc/action-hexo@84e64310d283067cd9493fa31fefa2025a97ea43
         uses: heowc/action-hexo@1.0.2-add-metadata
+        with:
+          args: generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
