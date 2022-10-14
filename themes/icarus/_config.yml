@@ -230,6 +230,6 @@ providers:
     # Name or URL of the webfont CDN provider
     fontcdn: loli
     # Name or URL of the webfont Icon CDN provider
-    iconcdn: loli
+    iconcdn: fontawesome
     
 lang: zh-CN
