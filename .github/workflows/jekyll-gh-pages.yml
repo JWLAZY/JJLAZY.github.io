@@ -29,8 +29,10 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: GitHub Action for Hexo
+          # You may pin to the exact commit or the version.
+          # uses: heowc/action-hexo@84e64310d283067cd9493fa31fefa2025a97ea43
+        uses: heowc/action-hexo@1.0.2-add-metadata
         with:
           source: ./
           destination: ./_site
