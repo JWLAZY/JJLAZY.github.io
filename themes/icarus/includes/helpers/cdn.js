@@ -26,7 +26,7 @@ module.exports = function (hexo) {
     hexo.extend.helper.register('cdn', function (_package, version, filename) {
         let provider = hexo.extend.helper.get('get_config').bind(this)('providers.cdn');
         // cdn.js does not follow a GitHub npm style like jsdeliver and unpkg do. Patch it!
-        if (provider === 'cdnjs' || provider.startsWith('[cdnjs]')) {
+        if (provider === 'cdnjs' || provider.startsWith('[cdnjs]') || provider === 'bootcdn' ) {
             if (provider.startsWith('[cdnjs]')) {
                 provider = provider.substr(7);
             }
