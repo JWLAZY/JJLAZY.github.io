@@ -33,11 +33,11 @@ jobs:
         run: |
           npm install
       - name: Clean
-        uses: heowc/action-hexo@1.0.2-add-metadata
+        uses: jwlazy/action-hexo@1.0.2-add-metadata
         with:
           args: clean
       - name: GitHub Action for Hexo
-        uses: heowc/action-hexo@1.0.2-add-metadata
+        uses: jwlazy/action-hexo@1.0.2-add-metadata
         with:
           args: generate
       - name: Upload artifact
