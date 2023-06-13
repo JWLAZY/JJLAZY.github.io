@@ -10,6 +10,7 @@ canonical_url: me.lizhitech.com
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
 logo: /images/logo.png
+avatar: /images/avatar.png
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -123,15 +124,15 @@ widgets:
         # Author name to be shown in the profile widget
         author: JW
         # Title of the author to be shown in the profile widget
-        author_title: programer
+        author_title: programer1
         # Author's current location to be shown in the profile widget
         location: beijing
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /images/1432.png
+        avatar: /images/avatar.png
         # Email address for the Gravatar to be shown in the profile widget
-        gravatar: zhengjianwen@outlook.com
+        gravatar: 
         # Whether to show avatar image rounded or square
-        avatar_rounded: false
+        avatar_rounded: true
         # Path or URL for the follow button
         follow_link: 'https://github.com/jjlazy'
         # Links to be shown on the bottom of the profile widget
