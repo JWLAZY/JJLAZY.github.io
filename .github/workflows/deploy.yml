@@ -29,9 +29,9 @@ jobs:
         uses: actions/checkout@v3
       - name: SedSecret
         run:  |
-          GITTALB_SECRET=${{ secrets.GITTALB_SECRET }}
+          GITTALk_SECRET=${{ secrets.GITTALk_SECRET }}
           echo $GITTALB_SECRET
-          sed -i  's/{{GITTALK_SECRET}}/${GITTALB_SECRET}/g' ./themes/icarus/_config.yml
+          sed -i  's/{{GITTALK_SECRET}}/${GITTALk_SECRET}/g' ./themes/icarus/_config.yml
           cat  ./themes/icarus/_config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v2
