@@ -27,18 +27,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        run:  |
+          GITTALB_SECRET=${{ secrets.GITTALB_SECRET }}
+          sed -i  's/{{GITTALK_SECRET}}/${GITTALB_SECRET}/g' ./themes/icarus/_config.yml
+      - name: SedSecret
+        run:  |
+          GITTALB_SECRET=${{ secrets.GITTALB_SECRET }}
+          echo $GITTALB_SECRET
+          sed -i  's/{{GITTALK_SECRET}}/${GITTALB_SECRET}/g' ./themes/icarus/_config.yml
+          cat  ./themes/icarus/_config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Install dependencies
         run: |
           npm install
-          GITTALB_SECRET=${{ secrets.GITTALB_SECRET }}
-          sed -i  's/{{GITTALK_SECRET}}/${GITTALB_SECRET}/g' ./themes/icarus/_config.yml
       - name: Clean
         uses: jwlazy/action-hexo@v1.0.0
         with:
           args: clean
-        
       - name: GitHub Action for Hexo
         uses: jwlazy/action-hexo@v1.0.0
         with:
