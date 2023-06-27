@@ -1,6 +1,6 @@
 ---
 title: ChatGPT指定节点访问
-tags: ChatGPT
+tags: ChatGPT Clash
 date: 2023-06-27
 ---
 OpenAI风控太厉害了，第一个账号因为一直切换IP所有被封号了, 后来每次使用ChatGPT的时候都需要确认IP使用美国直连的节点。

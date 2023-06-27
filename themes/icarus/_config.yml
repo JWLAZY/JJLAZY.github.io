@@ -69,27 +69,21 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: 
+    type: gitalk
+    client_id: 991ec860a7f847e39a87
+    client_secret: {{GITTALK_SECRET}}
+    repo: https://github.com/JWLAZY/JJLAZY.github.io
+    owner: JWLAZY
+    admin:
+        - JWLAZY
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
     -
         # Donation entry name
-        type: alipay
-        # Qrcode image URL
-        qrcode: ''
-    -
-        # Donation entry name
         type: wechat
         # Qrcode image URL
         qrcode: ''
-    -
-        # Donation entry name
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
     -
         # Donation entry name
         type: patreon
