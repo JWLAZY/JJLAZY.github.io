@@ -74,9 +74,9 @@ comment:
     client_secret: {{GITTALK_SECRET}}
     repo: JJLAZY.github.io
     owner: JWLAZY
+    proxy: 'https://proxy.cors.sh/https://github.com/login/oauth/access_token'
     admin:
         - JWLAZY
-    proxy: 'https://proxy.cors.sh/https://github.com/login/oauth/access_token'
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
