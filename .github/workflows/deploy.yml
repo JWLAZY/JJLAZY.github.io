@@ -33,7 +33,6 @@ jobs:
         run: |
           npm install
           GITTALB_SECRET=${{ secrets.GITTALB_SECRET }}
-          echo $GITTALB_SECRET
           sed -i  's/{{GITTALK_SECRET}}/${GITTALB_SECRET}/g' ./themes/icarus/_config.yml
       - name: Clean
         uses: jwlazy/action-hexo@v1.0.0
