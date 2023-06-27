@@ -72,7 +72,7 @@ comment:
     type: gitalk
     client_id: 991ec860a7f847e39a87
     client_secret: {{GITTALK_SECRET}}
-    repo: https://github.com/JWLAZY/JJLAZY.github.io
+    repo: JJLAZY.github.io
     owner: JWLAZY
     admin:
         - JWLAZY
