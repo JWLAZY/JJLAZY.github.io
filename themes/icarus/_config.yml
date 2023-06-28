@@ -37,14 +37,14 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/JWLAZY'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/JWLAZY'
 # Article display settings
 article:
     # Code highlight settings
@@ -84,12 +84,7 @@ donate:
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: ''
-    -
-        # Donation entry name
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+        qrcode: '/images/IMG_8275.JPG'
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
@@ -129,12 +124,12 @@ widgets:
         # Whether to show avatar image rounded or square
         avatar_rounded: true
         # Path or URL for the follow button
-        follow_link: 'https://github.com/jjlazy'
+        follow_link: 'https://github.com/JWLAZY'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/jjlazy'
+                url: 'https://github.com/JWLAZY'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com'
@@ -157,7 +152,6 @@ widgets:
         # Links to be shown in the links widget
         links:
             萌小怪: 'http://eva1963.win/myblog/'
-            PPOffice: 'https://github.com/jjlazy'
     -
         # Widget name
         type: category
@@ -207,7 +201,7 @@ plugins:
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
     baidu-analytics:
         # Baidu Analytics tracking id
-        tracking_id: 
+        tracking_id: 8ec920bb22db98ecb60fe49955b87c16
     # Hotjar user feedback plugin
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
     hotjar:
