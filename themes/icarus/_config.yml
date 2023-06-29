@@ -223,3 +223,8 @@ providers:
     iconcdn: fontawesome
     
 lang: zh-CN
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

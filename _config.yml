@@ -81,9 +81,7 @@ menu:
   Tags: /tags
   About: /about
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:lizhi-studio/lizhi-studio.github.io.git
-  branch: gh-pages
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
