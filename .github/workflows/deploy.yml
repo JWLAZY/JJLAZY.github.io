@@ -30,7 +30,7 @@ jobs:
       - name: SedSecret
         run:  |
           GITTALk_SECRET=${{ secrets.GITTALk_SECRET }}
-          sed -i  's/{{GITTALK_SECRET}}/${{ secrets.GITTALk_SECRET }}/g' ./themes/icarus/_config.yml
+          sed -i  's/GITTALK_SECRET/${{ secrets.GITTALk_SECRET }}/g' ./themes/icarus/_config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Install dependencies
