@@ -71,7 +71,7 @@ comment:
     # Name of the comment plugin
     type: gitalk
     client_id: 991ec860a7f847e39a87
-    client_secret: {{GITTALK_SECRET}}
+    client_secret: GITTALK_SECRET
     repo: JJLAZY.github.io
     owner: JWLAZY
     proxy: 'https://proxy.cors.sh/https://github.com/login/oauth/access_token'
@@ -223,8 +223,3 @@ providers:
     iconcdn: fontawesome
     
 lang: zh-CN
-
-sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml

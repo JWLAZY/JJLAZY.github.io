@@ -81,7 +81,30 @@ menu:
   Tags: /tags
   About: /about
 
-sitemap:
-  path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+sitemap:
+  path: 
+    - sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+robotstxt:
+    useragent: "*"
+    disallow:
+      - /vendors/
+      - /js/
+      - /css/
+      - /fonts/
+      - /fancybox/
+    allow:
+      - /
+      - /archives/
+      - /categories/
+      - /tags/
+      - /about/
+#    - 其他你想添加的页面
+    sitemap: 
+      - /sitemap.xml
+      - /baidusitemap.xml
