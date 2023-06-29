@@ -152,6 +152,8 @@ widgets:
         # Links to be shown in the links widget
         links:
             萌小怪: 'http://eva1963.win/myblog/'
+            ChatGPT: 'https://openai.com/'
+            LangChain: 'https://blog.langchain.dev/'
     -
         # Widget name
         type: category
