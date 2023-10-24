@@ -14,5 +14,6 @@ nodejs有很多版本，而有些开源库对nodejs的版本有要求，所以�
 NVM的官方地址：[点击](https://github.com/nvm-sh/nvm)
 
 # NPM
-
+...
 # NRM
+...
