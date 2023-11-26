@@ -78,4 +78,27 @@ npm install react
 npm run command(start,build,test,etc...)
 ```
 # NRM
-...
+NRM - NPM registry manager, npm 下载源管理器，可以理解为方便切换三方库的下载地址。同时可以增加自己的私有的源。
+
+**NRM安装**
+
+很简单，只需要当做一个npm包安装就好了。
+![s](https://r2.lizhitech.work/images/nrm_install_s.png)
+
+**所有源**
+
+```
+  nrm ls
+```
+![s](https://r2.lizhitech.work/images/nrm_ls.png)
+
+**切换源**
+
+```
+  nrm use name
+```
+![s](https://r2.lizhitech.work/images/nrm_use.png)
+
+
+# 结束
+这就是nodejs开发最基本的几个工具，熟练掌握这几个工具基本就能很好使用nodejs来开始开发项目了。当然还有很多其他的工具可以使用，欢迎大家留言区说说你常用的工具！
