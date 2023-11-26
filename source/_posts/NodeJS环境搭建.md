@@ -48,6 +48,34 @@ export https_proxy=$http_proxy；
 **nvm use version**:临时切换到指定版本
 
 # NPM
+npm全程node package manger, 是管理第三方nodejs库的工具。
+
+npm包管理工具和其他包管理工具不太一样的地方是下载的包在当前项目的node_modules文件夹中。所以如果你有很多前端项目就会导致你的电脑硬盘紧张，因为每个前端项目都会自己保留一份需要的第三方库，不会集中管理。
+
+### NPM使用
+每一个nodejs项目都会有一个package.json文件。可以理解这个文件是这个nodejs项目的使用说明书，其中包含了项目的说和项目的各种启动脚本和依赖的第三方包。
+
+#### 创建node项目
+
+创建node项目也就是创建一个package.json文件，然后再丰富启动脚本和依赖的第三方库。
+
+**创建命令**
+```
+  npm init
+```
+实例：
+![s](https://r2.lizhitech.work/images/npm_init.png)
+
 ...
+执行完成后就会在项目文件中创建一个package.json的文件，这时项目就初始化了。接下来就配置启动命令和第三方库就可以了。
+
+**下载第三方库**
+```
+npm install react
+```
+**启动脚本**
+```
+npm run command(start,build,test,etc...)
+```
 # NRM
 ...
